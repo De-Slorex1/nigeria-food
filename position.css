@@ -127,14 +127,15 @@ body {
 @media (max-width: 768px) {
     .box {
         width: 80%;
-        height: 500px;
-        background-color: rgb(44, 44, 44);
-        border-radius: 10px;
-        position: relative;
+        height: 485px;
     }
     .box img {
         width: 100%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+    }
+    .box h2 {
+        font-family: sans-serif;
+    }
+    .parent_container h2 {
+        font-family: sans-serif;
     }
 }
